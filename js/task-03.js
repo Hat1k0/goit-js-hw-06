@@ -26,8 +26,8 @@ const listItem=document.createElement('li')
 galleryList.appendChild(listItem)
 listItem.appendChild(img)
 });
-listItem.insertAdjacentHTML("afterend", string);
+// listItem.insertAdjacentHTML("afterend", string);
 galleryList.style.listStyle='none'
 galleryList.style.display='flex'
-listItem.style.width='30%'
+// listItem.style.width='30%'
 
